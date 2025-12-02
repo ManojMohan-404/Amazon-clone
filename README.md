@@ -40,7 +40,7 @@ There is currently **no JavaScript** functionality.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/Amazon-clone.git
+    git clone https://github.com/ManojMohan-404/Amazon-clone.git
     ```
 2. Navigate to the project directory:
     ```bash
