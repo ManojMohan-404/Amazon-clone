@@ -2,4 +2,516 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo img{
+    /* background-image: url(/media/imgs/amazon-logo.png); */
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec{
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/* box 4 */
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+/* box 6 */
+.nav-cart i{
+    font-size: 30px;
+
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel-all{
+    margin-left: 10px;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+/* hero section */
+.hero-section{
+    background-image: url(/media/imgs/hero_image.jpg);
+    background-size:cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    bottom: 25px;
+    position: relative;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/* shop section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    border: 2px solid black;
+    height: 410px;
+    width: 23%;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem 0 1rem 0;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+    
+}
+
+/* footer */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: #f3f3f3;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: #f3f3f3;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px; ;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: #ffffff;
+    border-top:0.5px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    /* background-image: url(/media/imgs/amazon_logo.png); */
+    background-size: cover;
+    height: 70px;
+    width: 100px;
+}
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: #ffffff;
+    font-size: 0.7rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 70px;
+}
+
+.pages{
+    padding-top: 25px;
+}
+
+.copyright{
+   padding-top: 5px;
+}
+
+/* ---------------------------------------- */
+/*       RESPONSIVE DESIGN MEDIA QUERIES    */
+/* ---------------------------------------- */
+
+/* Large tablets and small laptops */
+@media (max-width: 1000px) {
+    .nav-search {
+        width: 450px;
+    }
+
+    .box {
+        width: 45%;
+    }
+}
+
+/* Tablets and medium screens */
+@media (max-width: 900px) {
+    .nav-search {
+        width: 350px;
+    }
+
+    .panel-ops {
+        font-size: 0.75rem;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 700px) {
+
+    /* NAVBAR STACK */
+    /* ---------------------------------------- */
+/* RESPONSIVE NAVBAR FIX */
+/* ---------------------------------------- */
+
+@media (max-width: 750px) {
+
+    .navbar {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+        justify-content: center;
+        gap: 10px; /* Add spacing */
+    }
+
+    .nav-logo {
+        width: 120px;
+    }
+
+    .nav-address,
+    .nav-singin,
+    .nav-return,
+    .nav-cart {
+        font-size: 0.75rem;
+    }
+
+    .nav-cart i {
+        font-size: 22px;
+    }
+
+    /* Search bar full-width */
+    .nav-search {
+        width: 90%;
+        margin-top: 10px;
+        order: 10; /* Push search bar to the next line */
+    }
+}
+
+
+    /* BOXES */
+    .box {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    /* --------------------------------------- */
+/* RESPONSIVE PANEL FIX */
+/* --------------------------------------- */
+
+@media (max-width: 900px) {
+
+    /* Allow wrapping */
+    .panel {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 15px;
+        justify-content: center;
+        row-gap: 10px;
+    }
+
+    /* Panel-All (Hamburger + All) stays on first row */
+    .panel-all {
+        flex: 0 0 auto;
+        font-size: 0.9rem;
+    }
+
+    /* Panel options move to center under "All" */
+    .panel-ops {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .panel-ops p {
+        display: inline-block;
+        margin: 0 10px;
+        font-size: 0.85rem;
+    }
+
+    /* Deals text moves below in center */
+    .panel-deals {
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 0.85rem;
+    }
+}
+
+
+/* Extra-small phones */
+@media (max-width: 500px) {
+
+    .panel {
+        padding: 12px 5px;
+    }
+
+    .panel-ops p {
+        margin: 5px 7px;
+        font-size: 0.75rem;
+    }
+
+    .panel-deals {
+        font-size: 0.78rem;
+    }
+
+    .panel-all {
+        font-size: 0.85rem;
+    }
+}
+
+
+
+    /* HERO SECTION RESPONSIVE */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 220px;                /* reduce height for small screens */
+        background-position: center;  /* center the image */
+        background-size: cover;       /* keep full image visible */
+    }
+
+    .hero-msg {
+        width: 90%;
+        font-size: 0.75rem;
+        height: auto;
+        padding: 8px 5px;
+        bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        height: 180px;
+        background-position: top;     /* better for tall images */
+    }
+
+    .hero-msg {
+        width: 95%;
+        font-size: 0.7rem;
+        padding: 6px 4px;
+        bottom: 10px;
+    }
+}
+
+/* Tablets & small screens */
+@media (max-width: 768px) {
+    .box {
+        width: 48%;      /* 2 per row */
+        height: 300px;   /* smaller height */
+    }
+
+    .box-img {
+        height: 200px;   /* reduce image height */
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 48%;     
+        height: auto;   /* allow box to grow */
+        padding-bottom: 10px;
+    }
+
+    .box-img {
+        height: 180px;  /* reduced image height */
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 98%;     
+        height: auto;   /* allow natural height */
+    }
+
+    .box-img {
+        height: 150px;
+    }
+}
+
+
+    /* FOOTER COLUMN STACK */
+    .foot-panel2 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        gap: 25px;
+        text-align: center;
+    }
+}
+
+/* Extra small phones */
+@media (max-width: 480px) {
+
+    .nav-search {
+        height: 35px;
+    }
+
+    .search-select {
+        width: 45px;
+    }
+
+    .search-icon {
+        width: 40px;
+        font-size: 1rem;
+    }
+
+    .panel-ops p {
+        margin-left: 10px;
+        font-size: 0.7rem;
+    }
+
+    .hero-section {
+        height: 220px;
+    }
 }
