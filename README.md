@@ -2,6 +2,10 @@
 
 This project is a front-end clone of the Amazon homepage, built purely with **HTML** and **CSS**. It was created for educational purposes to practice core web development skills by replicating a complex, real-world user interface.
 
+## Live Demo
+
+A live demo of the project can be found here: [Amazon Clone Demo](https://amaz0n-clone-homepage.netlify.app/)
+
 ## 📸 Screenshots
 
 ### 🏠 Homepage Preview
